@@ -4,11 +4,13 @@
     --color-primary: #576cbc;
     --color-secondary: #19376d;
     --color-dark: #0b3447;
-    --color-bg: #1D0937;
+    --color-bg: #140825;
 
     /* Fonts */
     --font-poppins: 'Poppins', sans-serif;
     --font-lato: 'Lato', sans-serif;
+    --font-ibm: 'IBM Plex Mono', monospace;
+      
 
 
 }

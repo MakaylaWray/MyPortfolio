@@ -8,7 +8,7 @@ export const Hero = () => {
     return ( <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>
-                Hiya There! <br/>It's Me Makayla
+                HIYA THERE! <br/>It's Me <span className={styles.titlecolor}>Makayla.</span>
             </h1>
             <p className={styles.description}>I'm a full-stack developer.<br/> Reach out if you'd like to learn more!</p>
             <div className={styles.btncontainer}>
@@ -17,8 +17,6 @@ export const Hero = () => {
             </div>
         </div>
         <img src={getImageUrl("hero/hero-pic.png")} alt="Hero image of me" className={styles.heroimg}></img>
-        <div className={styles.topBlur}></div>
-        <div className={styles.bottomBlur}></div>
     </section>
     );
 };
