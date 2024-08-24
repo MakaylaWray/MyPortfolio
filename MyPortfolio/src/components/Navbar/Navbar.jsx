@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import styles from "./NavBar.module.css"
 import { getImageUrl } from "../../util"
 import { motion } from "framer-motion"
