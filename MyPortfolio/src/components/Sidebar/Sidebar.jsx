@@ -15,23 +15,23 @@ export const Sidebar = () => {
                 type: "spring",
                 stiffness: 20,
             }
-
         },
         closed: {
             clipPath: "circle(30px at 50px 50px)",
             transition: {
-                delay: 0.5,
+                delay: 0.2,
                 type: "spring",
                 stiffness: 400,
                 damping: 40,
             },
         },
     };
-    return (<motion.div className={styles.sidebar} animate={open ? "open" : "closed"}>
+    return (
+        <motion.div className={styles.sidebar} animate={open ? "open" : "closed"}>
         <motion.div className={styles.bg} variants ={variants}>
             <Links/>
         </motion.div>
         <ToggleButton setOpen={setOpen}/>
-    </motion.div>
+        </motion.div>
     )
 };
