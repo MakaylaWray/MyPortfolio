@@ -11,11 +11,10 @@
 .bg{
     position: fixed;
     top:0;
-    left:0;
+    right:0;
     bottom: 0;
     width: 400px;
     background: white;
-    margin-left: 740px;
 }
 
 
@@ -25,11 +24,10 @@
     border-radius: 50%;
     position: fixed;
     top: 25px;
-    left: 25px;
+    right: 25px;
     height: 25px;
     background-color: transparent;
     border: none;
-    margin-left: 1000px;
 }
 
 .links{

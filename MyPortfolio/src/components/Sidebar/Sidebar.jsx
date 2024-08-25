@@ -28,10 +28,10 @@ export const Sidebar = () => {
     };
     return (
         <motion.div className={styles.sidebar} animate={open ? "open" : "closed"}>
-        <motion.div className={styles.bg} variants ={variants}>
-            <Links/>
-        </motion.div>
-        <ToggleButton setOpen={setOpen}/>
+            <motion.div className={styles.bg} variants ={variants}>
+                <Links/>
+            </motion.div>
+            <ToggleButton setOpen={setOpen}/>
         </motion.div>
     )
 };
