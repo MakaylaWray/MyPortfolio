@@ -4,8 +4,14 @@ import { NavBar } from './components/Navbar/Navbar';
 
 function App() {
   return <div className={styles.App}>
-    <NavBar/>
-    <Hero/>
+      <NavBar/>
+    <section id="Home">
+      <Hero/>
+    </section>
+    <section id="About">About</section>
+    <section id="Experience">Experience</section>
+    <section id="Skills/Projects">Skills/Projects</section>
+    <section id="Contact">Contact</section>
   </div>;
   
 }

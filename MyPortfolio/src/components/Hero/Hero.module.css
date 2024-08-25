@@ -79,11 +79,13 @@ button{
     border-style: none;
     font-size: 20px;
     background-color: #7C6699;
+    color: white;
 }
 .rightbtn{
     border-style: solid;
     border-width: 3px;
     background-color: transparent;
     border-color: #CFAAFF;
+    color: white;
 }
 
