@@ -2,7 +2,6 @@ import React from "react"
 import styles from "./NavBar.module.css"
 import { getImageUrl } from "../../util"
 import { motion } from "framer-motion"
-import { Sidebar } from "../../components/Sidebar/Sidebar"
 
 
 export const NavBar = () => {
@@ -15,7 +14,13 @@ export const NavBar = () => {
                 src={getImageUrl("nav/navicon.png")} 
                 className={styles.navicon} 
                 alt="icon picture of me"/>
-            <Sidebar/>
+            <ul className={styles.menuitems}>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills/Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            {/* <Sidebar/> */}
         </nav>
     );
 };

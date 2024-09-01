@@ -25,10 +25,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top:49px;
+    margin-top:0px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    height: 100vh;
+    background-color: rgb(16, 0, 28);
 }
 
 .content{
@@ -40,7 +42,7 @@
 }
 
 .title{
-    font-family: var(--font-ibm);
+    font-family: var(--font-poppins);
     font-weight: 800;
     font-size: 64px;
     margin-bottom: 33px;
@@ -50,7 +52,7 @@
 
 }
 .titlecolor{
-    font-family: var(--font-ibm);
+    font-family: var(--font-poppins);
     font-weight: 700;
     font-size: 64px;
     margin-bottom: 33px;
@@ -60,7 +62,7 @@
 }
 
 .description{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 52px;
 }
@@ -89,3 +91,26 @@ button{
     color: white;
 }
 
+.wavecontainer{
+    position: relative;
+}
+.custom-shape-divider-top-1725159131 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divtop svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 137px;
+}
+
+.divtop .shapefill {
+    fill: #FFFFFF;
+}

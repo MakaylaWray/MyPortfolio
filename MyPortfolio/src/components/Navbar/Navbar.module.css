@@ -15,3 +15,13 @@
     height: auto;
 }
 
+.menuitems{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    list-style: none;
+    color: var(--color-text);
+}
+
+
