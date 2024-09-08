@@ -18,8 +18,8 @@
 .menuitems{
     display: flex;
     gap: 20px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 200;
     list-style: none;
     color: var(--color-text);
 }

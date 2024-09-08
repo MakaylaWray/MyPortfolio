@@ -12,8 +12,8 @@ html{
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--font-lato); 
-    font-weight: 400;
+    font-family: var(--font-poppins); 
+    font-weight: 200;
 }
 a{
     text-decoration: none;
@@ -21,7 +21,12 @@ a{
 }
 
 body{
-    background-color: rgb(16, 0, 28);
+    background-image: url("../../../assets/hero/bggradient.jpg");
+    background-color: rgba(39, 16, 72);
+    height: 1600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
     color: var(--color-text);
     
 }
@@ -31,9 +36,9 @@ section{
 
 .home{
     height: fit-content;
-    background-color: rgb(16, 0, 28);
 }
 .about{
-    height: 600px;
+    height: fit-content;
     background-color: white;
+    height: 700px;
 }

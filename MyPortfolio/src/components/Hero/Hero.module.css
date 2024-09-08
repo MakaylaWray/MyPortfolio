@@ -29,8 +29,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-    height: 100vh;
-    background-color: rgb(16, 0, 28);
+    height: 600px;
 }
 
 .content{
@@ -62,8 +61,8 @@
 }
 
 .description{
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 200;
     margin-bottom: 52px;
 }
 .btncontainer{
@@ -72,19 +71,20 @@
 }
 
 button{
-    width: 230px;
-    height: 50px;
+    width: 180px;
+    height: 45px;
     border-radius: 25px;
     font-size: 20px;
 }
 .leftbtn{
     border-style: none;
     font-size: 20px;
-    background-color: #7C6699;
+    background-color: #CFAAFF;
     color: white;
 }
 .rightbtn{
     border-style: solid;
+    font-size: 20px;
     border-width: 3px;
     background-color: transparent;
     border-color: #CFAAFF;
@@ -94,21 +94,20 @@ button{
 .wavecontainer{
     position: relative;
 }
-.custom-shape-divider-top-1725159131 {
-    position: absolute;
-    top: 0;
+.divtop {
+    position: relative;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
 .divtop svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 137px;
+    height: 150px;
 }
 
 .divtop .shapefill {

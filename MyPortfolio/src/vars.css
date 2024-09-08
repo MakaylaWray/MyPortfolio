@@ -1,16 +1,14 @@
 :root {
     /* Colors */
     --color-text: #ffffff;
-    --color-primary: #576cbc;
+    --color-primary: #9e14a5;
     --color-secondary: #19376d;
-    --color-dark: #0b3447;
+    --color-dark: #470b42;
     --color-bg: #140825;
 
     /* Fonts */
     --font-poppins: 'Poppins', sans-serif;
     --font-lato: 'Lato', sans-serif;
     --font-ibm: 'IBM Plex Mono', monospace;
-      
-
 
 }
